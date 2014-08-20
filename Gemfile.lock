@@ -1,10 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    crack (0.4.2)
+      safe_yaml (~> 1.0.0)
     mini_portile (0.6.0)
     nokogiri (1.6.3.1)
       mini_portile (= 0.6.0)
     rack (1.5.2)
+    safe_yaml (1.0.3)
     sinatra (1.1.0)
       rack (~> 1.1)
       tilt (~> 1.1)
@@ -14,5 +17,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  crack
   nokogiri
   sinatra (= 1.1.0)
