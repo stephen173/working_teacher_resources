@@ -17,6 +17,9 @@ READ4PAGE_URL = "http://www.testprepreview.com/ela-grade-4.htm"
 
 
 
-get '/' do
-  "Hello, world"
+get '/' do 
+resp = RestClient.get('http://en.wikipedia.org/w/api.php?action=opensearch&search=')
+doc = JSON.parse(resp)
+@doc = []
+  erb :home
 end
