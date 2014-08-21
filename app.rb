@@ -17,4 +17,6 @@ READ4PAGE_URL = "http://www.testprepreview.com/ela-grade-4.htm"
 
 
 
-
+get '/' do
+  "Hello, world"
+end
