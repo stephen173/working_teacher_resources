@@ -15,8 +15,7 @@ READ2PAGE_URL = "http://www.testprepreview.com/ela-grade-2.htm"
 READ3PAGE_URL = "http://www.testprepreview.com/ela-grade-3.htm"
 READ4PAGE_URL = "http://www.testprepreview.com/ela-grade-4.htm"
 
-  set :bind, '0.0.0.0'
-  set :port, 3000
+
 
 get '/' do
   "Hello, world"
